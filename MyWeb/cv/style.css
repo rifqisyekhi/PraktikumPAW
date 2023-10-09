@@ -8,7 +8,7 @@
 }
 
 body {
-    background: lightblue;
+    background: #F5FCCD;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ body {
 
 .container .left_side {
     position: relative;
-    background: #003147;
+    background: #12486B;
     padding: 40px;
 }
 
@@ -61,7 +61,7 @@ body {
 
 .profileText h2 {
     color: #ededed;
-    font-size: 1.5em;
+    font-size: 1.1em;
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -101,7 +101,7 @@ body {
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: #03a9f4;
+    color: #78D6C6;
 }
 
 .contactInfo ul li span {
@@ -115,7 +115,7 @@ body {
 }
 
 .contactInfo.education h5 {
-    color: #03a9f4;
+    color: #78D6C6;
     font-weight: 500;
 }
 
@@ -143,7 +143,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;
+    background: #419197;
 }
 
 .container .right_side {
@@ -199,6 +199,10 @@ p {
     text-transform: uppercase;
     color: #2a7da2;
     font-size: 16px;
+}
+
+.about .box .text p {
+    text-align: justify;
 }
 
 .skills .box {
